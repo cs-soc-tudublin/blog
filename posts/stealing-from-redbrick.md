@@ -1,7 +1,7 @@
 ---
 title: Stealing from Redbrick
 created: 2024-03-25T15:00:00
-modified: 2024-06-30T16:44:54
+modified: 2024-06-30T16:45:30
 tags:
   - admins
 author: rjm
@@ -38,3 +38,6 @@ Currently, we have no plans to move from Atlas, but will continue to make modifi
 The beauty of open-source is that as we modify Plume, it'll be available to commit to its upstream, Atlas, if we develop any significant features.
 
 It also means you can grab your own copy of Plume or Atlas and make your own gorgeous website!
+
+# Finally, a Thanks
+I'd like to thank everyone over at Redbrick who let us use your amazing work! Notable thanks to Dom for liaising, and especially for Jed who did such an amazing job at this site!
