@@ -25,7 +25,7 @@ SonarQube is really simple, it runs as a Docker Container, and we connect it to 
 For any repositories with CI/CD (For automatic deployment), SonarQube passing is a requirement for the project to be deployed.
 
 The User Interface is really useful, too:
-![](../src/sonarqube-screenshot.webp)
+![](../res/sonarqube-screenshot.webp)
 This is some actual usage metrics from SonarQube about Plume!
 
 We currently have no issues with Security, Reliability or Maintainability. Which means we're adhering to correct programming principles, and haven't exposed anything vulnerable.
