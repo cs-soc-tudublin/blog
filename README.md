@@ -1,23 +1,28 @@
 ---
 title: CS++ Blog
 created: 2024-01-30T02:13:04
-modified: 2024-06-30T16:05:10
+modified: 2025-12-28T00:13:06
 index: true
 ---
 
 # CS++ Blog
 
 This repository contains all of the blog posts from CS++. They are served [here](https://cspp.ie/).
+
 The Blog system is based closely off Redbrick's [blog](https://github.com/redbrick/blog).
 
 Blog Posts are usually written in [Obsidian](https://obsidian.md/), which provides an easy experience to write Markdown files!
+
 This repository contains the .obisidan file, which installs the relevant theme and plugins for writing blog posts easily.
 
 # How to Write a Blog Post
+
 1. Clone this repository
+
 ```bash
 git clone https://github.com/cs-soc-tudublin/blog.git
 ```
+
 2. Open the newly cloned folder in Obsidian
 - Go into settings and enable community plugins
 - Make sure that all plugins and enabled

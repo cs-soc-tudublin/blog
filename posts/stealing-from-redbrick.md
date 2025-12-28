@@ -1,7 +1,7 @@
 ---
 title: Stealing from Redbrick
 created: 2024-03-25T15:00:00
-modified: 2024-06-30T16:45:30
+modified: 2025-12-28T00:13:06
 tags:
   - admins
 author: rjm
@@ -40,4 +40,5 @@ The beauty of open-source is that as we modify Plume, it'll be available to comm
 It also means you can grab your own copy of Plume or Atlas and make your own gorgeous website!
 
 # Finally, a Thanks
+
 I'd like to thank everyone over at Redbrick who let us use your amazing work! Notable thanks to Dom for liaising, and especially for Jed who did such an amazing job at this site!

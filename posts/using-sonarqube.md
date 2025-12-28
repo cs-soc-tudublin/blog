@@ -1,7 +1,7 @@
 ---
 title: Using SonarQube
 created: 2024-08-11T22:21:31
-modified: 2024-08-11T22:32:22
+modified: 2025-12-28T00:13:06
 tags:
    - admin
    - foss
@@ -25,18 +25,23 @@ SonarQube is really simple, it runs as a Docker Container, and we connect it to 
 For any repositories with CI/CD (For automatic deployment), SonarQube passing is a requirement for the project to be deployed.
 
 The User Interface is really useful, too:
+
 ![](../res/sonarqube-screenshot.webp)
+
 This is some actual usage metrics from SonarQube about Plume!
 
 We currently have no issues with Security, Reliability or Maintainability. Which means we're adhering to correct programming principles, and haven't exposed anything vulnerable.
 
 *But wait! It says you have 4 'Security Hotspots'!*
+
 Yes it does! Hotspots are not genuine security issues, but a step that requires the developer to manually review that this security-sensitive code is safe.
 
 None of the hotspots raised present a significant problem, but haven't been marked as 'resolved' when this screenshot was taken.
 
 # Any Other Quality Checks?
+
 The plan is to create and roll out a few analysis workflows that will do the following:
+
 - Spell-check
 - Link resolution
 - Image Source verification
