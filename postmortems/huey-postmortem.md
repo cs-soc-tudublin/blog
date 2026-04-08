@@ -1,7 +1,7 @@
 ---
 title: 26-12 Postmortem
 created: 2025-12-28T00:04:16
-modified: 2025-12-28T01:14:25
+modified: 2026-04-08T12:22:12
 tags:
    - admins
    - post-mortem
@@ -22,7 +22,7 @@ While noted as out-of-the-ordinary, the external services were still routable, s
 
 In reality, this issue was a symptom of the real problem, `Huey`, the VM used to host CS++'s services in our cluster had ran out of space on its disk and this was impacting containers that interacted with the filesystem.
 
-# 27/12 @ 22:05 - "completely Unrelated to cs++"..
+# 27/12 @ 22:05 - "completely Unrelated to cs++".
 
 At 22:05 on the 27th, a message was sent to me from @rockerkemm, another of our Sysadmins.
 
